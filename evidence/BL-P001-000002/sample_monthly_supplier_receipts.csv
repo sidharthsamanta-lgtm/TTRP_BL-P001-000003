@@ -1,0 +1,5 @@
+Supplier_ID,Product_ID,Receipt_Month,Receipt_Frequency,Total_Quantity
+S101,P100,2026-01,2,20
+S101,P100,2026-02,1,10
+S102,P100,2026-02,1,4
+S102,P200,2026-01,1,6

@@ -1,0 +1,27 @@
+{
+  "reporting_range": {
+    "start": "2026-01-01",
+    "end": "2026-03-01"
+  },
+  "source_rows": 5,
+  "included_rows": 5,
+  "metric_definitions": {
+    "Receipt_Frequency": "Number of distinct receipts per supplier, product and month",
+    "Total_Quantity": "Sum of receipt-line Quantity per supplier, product and month"
+  },
+  "per_product_reconciliation": [
+    {
+      "Product_ID": "P100",
+      "Source_Quantity": 34.0,
+      "Summary_Quantity": 34.0,
+      "Matches": true
+    },
+    {
+      "Product_ID": "P200",
+      "Source_Quantity": 6.0,
+      "Summary_Quantity": 6.0,
+      "Matches": true
+    }
+  ],
+  "reconciled": true
+}
